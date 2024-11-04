@@ -3,8 +3,8 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <div className='navbar'>
+      <img src='{a}' alt=''/>
     </div>
   )
 }
