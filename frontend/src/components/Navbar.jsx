@@ -7,10 +7,10 @@ const Navbar = () => {
     <div className='navbar'>
       <img src={assets.logo} alt="" className="log" />
       <ul className='navbar-menu'>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Mobile App</li>
+        <li>Contact Us</li>
       </ul>
     </div>
   )
