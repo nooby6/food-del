@@ -1,15 +1,18 @@
-.navbar{
+/* Navbar container styling */
+.navbar {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar .logo{
+/* Logo styling */
+.navbar .logo {
   width: 120px;
 }
 
-.navbar-menu{
+/* Navbar menu styling */
+.navbar-menu {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -18,13 +21,15 @@
   font-weight: 500;
 }
 
-.navbar-right{
+/* Right section of the navbar styling */
+.navbar-right {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.navbar button{
+/* Button styling within the navbar */
+.navbar button {
   background: transparent;
   font-size: 16px;
   color: #49557e;
@@ -35,24 +40,29 @@
   transition: 0.3s;
 }
 
-.navbar button:hover{
+/* Button hover effect */
+.navbar button:hover {
   background-color: #fff4f2;
 }
 
-.navbar .active{
+/* Active link styling */
+.navbar .active {
   padding-bottom: 2px;
   border-bottom: 2px solid #49557e;
 }
 
-.navbar li{
+/* List item styling within the navbar */
+.navbar li {
   cursor: pointer;
 }
 
-.navbar-search-icon{
+/* Search icon container styling */
+.navbar-search-icon {
   position: relative;
 }
 
-.navbar-search-icon .dot{
+/* Dot indicator on the search icon */
+.navbar-search-icon .dot {
   position: absolute;
   min-width: 10px;
   min-height: 10px;
