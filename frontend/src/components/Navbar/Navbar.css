@@ -12,9 +12,9 @@
 .navbar-menu{
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 30px;
   color: #49557e;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .navbar-right{
@@ -49,4 +49,14 @@
 
 .navbar-search-icon{
   position: relative;
+}
+
+.navbar-search-icon .dot{
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -8px;
 }
