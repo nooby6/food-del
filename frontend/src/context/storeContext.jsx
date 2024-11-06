@@ -5,10 +5,10 @@ export const storeContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-
+ 
 
     const contextValue = {
-
+        food_list
     }
     return (
         <storeContext.Provider value={contextValue}>
