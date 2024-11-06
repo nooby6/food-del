@@ -1,35 +1,29 @@
-/* Navbar container styling */
-.navbar {
+.navbar{
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Logo styling */
-.navbar .logo {
-  width: 120px;
+.navbar .logo{
+  width: 150px;
 }
 
-/* Navbar menu styling */
-.navbar-menu {
+.navbar-menu{
   display: flex;
   list-style: none;
   gap: 30px;
   color: #49557e;
   font-size: 20px;
-  font-weight: 500;
 }
 
-/* Right section of the navbar styling */
-.navbar-right {
+.navbar-right{
   display: flex;
-  align-items: center;
   gap: 40px;
+  align-items: center;
 }
 
-/* Button styling within the navbar */
-.navbar button {
+.navbar button{
   background: transparent;
   font-size: 16px;
   color: #49557e;
@@ -40,29 +34,24 @@
   transition: 0.3s;
 }
 
-/* Button hover effect */
-.navbar button:hover {
+.navbar button:hover{
   background-color: #fff4f2;
 }
 
-/* Active link styling */
-.navbar .active {
+.navbar .active{
   padding-bottom: 2px;
   border-bottom: 2px solid #49557e;
 }
 
-/* List item styling within the navbar */
-.navbar li {
+.navbar li{
   cursor: pointer;
 }
 
-/* Search icon container styling */
-.navbar-search-icon {
+.navbar-search-icon{
   position: relative;
 }
 
-/* Dot indicator on the basket icon */
-.navbar-search-icon .dot {
+.navbar-search-icon .dot{
   position: absolute;
   min-width: 10px;
   min-height: 10px;
