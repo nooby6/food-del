@@ -8,7 +8,7 @@ const Fooditem = ({id,name,price,description,image}) => {
 
   return (
     <div className='food-item'>
-        <div className="food-item-container">
+        <div className="food-item-img-container">
             <img className='food-item-image' src={image} alt="" />
             { !itemCount 
                 ?<img className='add' onClick={()=>setItemCount(prev=>prev+1)} src={assets.add_icon_white} alt="Add Icon" />
