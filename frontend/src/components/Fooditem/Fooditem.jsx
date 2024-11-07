@@ -1,6 +1,6 @@
 import React from 'react'
 import './Fooditem.css'
-import { assets } from '../../assets/assets' // Adjust the path as necessary
+import { assets } from '../../assets/assets'
 
 const Fooditem = ({id,name,price,description,image}) => {
   return (
